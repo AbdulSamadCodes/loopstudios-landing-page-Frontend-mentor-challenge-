@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--========Favicon link=========-->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <!--========Fonts css link=========-->
+
+    <link rel="stylesheet" href="/Fonts/fonts.css" />
+
+    <!--========Custom css link=========-->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | Loopstudios landing page</title>
+  </head>
+  <body>
+    <!--========Header==========-->
+
+    <header class="header fixed" data-header>
+      <div class="container flex-space-between">
+        <div class="logo">
+          <a href="#">
+            <img src="/images/logo.svg" alt="" width="120" height="120" />
+          </a>
+        </div>
+
+        <nav class="navbar" data-navbar>
+          <div class="container fixed flex-column">
+            <div class="navbar-top flex-space-between">
+              <div class="logo">
+                <a href="#">
+                  <img src="/images/logo.svg" alt="" width="120" height="120" />
+                </a>
+              </div>
+
+              <button class="nav-close-btn nav-toggle-btn" data-nav-toggle>
+                <img src="/images/icon-close.svg" alt="" />
+              </button>
+            </div>
+
+            <ul class="navbar-list flex-justify-center flex-column">
+              <li class="nav-item">
+                <a href="about" class="nav-link" data-nav-link> About </a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#" class="nav-link" data-nav-link>Careers </a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#" class="nav-link" data-nav-link> Events </a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#" class="nav-link" data-nav-link>Products</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#" class="nav-link" data-nav-link>Support</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <button class="nav-open-btn nav-toggle-btn" data-nav-toggle>
+          <img src="/images/icon-hamburger.svg" alt="" />
+        </button>
+      </div>
+    </header>
+
+    <!---=======Overlay========-->
+
+    <div class="overlay fixed" data-overlay></div>
+
+    <main>
+      <article>
+        <!--========Hero section==========-->
+
+        <section class="hero section">
+          <div class="container">
+            <div class="hero-title-wrapper">
+              <h1 class="hero-title">Immersive experiences that deliver</h1>
+            </div>
+          </div>
+        </section>
+
+        <!--========About section==========-->
+
+        <section class="about section" id="about">
+          <div class="container grid">
+            <figure class="about-banner">
+              <img
+                src="/images/mobile/image-interactive.jpg"
+                alt=""
+                data-mobile-about-banner
+              />
+
+              <img
+                src="/images/desktop/image-interactive.jpg"
+                alt=""
+                data-desktop-about-banner
+              />
+            </figure>
+
+            <div class="about-content text-align">
+              <h2 class="section-title">The leader in interactive VR</h2>
+
+              <p class="about-text secton-text">
+                Founded in 2011, Loopstudios has been producing world-class
+                virtual reality projects for some of the best companies around
+                the globe. Our award-winning creations have transformed
+                businesses through digital experiences that bind to their brand.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <!--========Creation section==========-->
+
+        <section class="section creation">
+          <div class="container grid">
+            <h2 class="section-title creation-title text-align">
+              Our creations
+            </h2>
+
+            <ul class="creation-list grid">
+              <li
+                class="creation-card"
+                data-mobile-bg="/images/mobile/image-deep-earth.jpg"
+                data-desktop-bg="/images/desktop/image-deep-earth.jpg"
+                data-creation-card
+              >
+                <h3 class="section-title card-title">Deep <br />earth</h3>
+              </li>
+
+              <li
+                class="creation-card"
+                data-mobile-bg="/images/mobile/image-night-arcade.jpg"
+                data-desktop-bg="/images/desktop/image-night-arcade.jpg"
+                data-creation-card
+              >
+                <h3 class="section-title card-title">Night <br />arcade</h3>
+              </li>
+
+              <li
+                class="creation-card"
+                data-mobile-bg="/images/mobile/image-soccer-team.jpg"
+                data-desktop-bg="/images/desktop/image-soccer-team.jpg"
+                data-creation-card
+              >
+                <h3 class="section-title card-title">Soccer <br />team VR</h3>
+              </li>
+
+              <li
+                class="creation-card"
+                data-mobile-bg="/images/mobile/image-grid.jpg"
+                data-desktop-bg="/images/desktop/image-grid.jpg"
+                data-creation-card
+              >
+                <h3 class="section-title card-title">the <br />grid</h3>
+              </li>
+
+              <li
+                class="creation-card"
+                data-mobile-bg="/images/mobile/image-from-above.jpg"
+                data-desktop-bg="/images/desktop/image-from-above.jpg"
+                data-creation-card
+              >
+                <h3 class="section-title card-title">From up <br />above vr</h3>
+              </li>
+
+              <li
+                class="creation-card"
+                data-mobile-bg="/images/mobile/image-pocket-borealis.jpg"
+                data-desktop-bg="/images/desktop/image-pocket-borealis.jpg"
+                data-creation-card
+              >
+                <h3 class="section-title card-title">pocket <br />borealis</h3>
+              </li>
+
+              <li
+                class="creation-card"
+                data-mobile-bg="/images/mobile/image-curiosity.jpg"
+                data-desktop-bg="/images/desktop/image-curiosity.jpg"
+                data-creation-card
+              >
+                <h3 class="section-title card-title">the <br />curiosity</h3>
+              </li>
+
+              <li
+                class="creation-card"
+                data-mobile-bg="/images/mobile/image-fisheye.jpg"
+                data-desktop-bg="/images/desktop/image-fisheye.jpg"
+                data-creation-card
+              >
+                <h3 class="section-title card-title">make it <br />fish eye</h3>
+              </li>
+            </ul>
+
+            <button class="btn see-all-btn">SEE ALL</button>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <!--=======Footer=========-->
+
+    <footer class="footer">
+      <div class="container grid">
+        <div class="logo">
+          <a href="#">
+            <img src="/images/logo.svg" alt="" width="120" height="120" />
+          </a>
+        </div>
+
+        <ul class="footer-list text-align flex">
+          <li>
+            <a href="" class="footer-link"> About </a>
+          </li>
+
+          <li>
+            <a href="" class="footer-link"> Careers </a>
+          </li>
+
+          <li>
+            <a href="" class="footer-link"> Events </a>
+          </li>
+
+          <li>
+            <a href="" class="footer-link"> Products </a>
+          </li>
+
+          <li>
+            <a href="" class="footer-link"> Support </a>
+          </li>
+        </ul>
+
+        <ul class="footer-social-list flex-justify-center">
+          <li>
+            <a href="" class="footer-social-link">
+              <img src="/images/icon-facebook.svg" alt="" />
+            </a>
+          </li>
+
+          <li>
+            <a href="" class="footer-social-link">
+              <img src="/images/icon-twitter.svg" alt="" />
+            </a>
+          </li>
+
+          <li>
+            <a href="" class="footer-social-link">
+              <img src="/images/icon-pinterest.svg" alt="" />
+            </a>
+          </li>
+
+          <li>
+            <a href="" class="footer-social-link">
+              <img src="/images/icon-instagram.svg" alt="" />
+            </a>
+          </li>
+        </ul>
+
+        <div class="copyright text-align">
+          <p>© 2021 Loopstudios. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!--========Custom script link=========-->
+
+    <script src="script.js"></script>
+  </body>
+</html>
